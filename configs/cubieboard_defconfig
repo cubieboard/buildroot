@@ -1,6 +1,6 @@
 #
 # Automatically generated make config: don't edit
-# Buildroot 2013.02-dirty Configuration
+# Buildroot 2013.02-00001-g49408af-dirty Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOSTARCH_NEEDS_IA32_LIBS=y
@@ -988,6 +988,7 @@ BR2_PACKAGE_UTIL_LINUX_LIBBLKID=y
 # BR2_PACKAGE_UTIL_LINUX_LOGIN_UTILS is not set
 # BR2_PACKAGE_UTIL_LINUX_WRITE is not set
 # BR2_PACKAGE_DSP_TOOLS is not set
+BR2_PACKAGE_CB_TOOLS=y
 
 #
 # Text editors and viewers

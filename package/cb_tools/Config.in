@@ -1,0 +1,5 @@
+config BR2_PACKAGE_CB_TOOLS
+	bool "cb_tools"
+	help
+	  tools for cubieboard
+
