@@ -1,6 +1,6 @@
 #
 # Automatically generated make config: don't edit
-# Buildroot 2013.02-00001-g49408af-dirty Configuration
+# Buildroot 2013.02-00002-g9d0aaa6-dirty Configuration
 #
 BR2_HAVE_DOT_CONFIG=y
 BR2_HOSTARCH_NEEDS_IA32_LIBS=y
@@ -257,8 +257,7 @@ BR2_PACKAGE_STRACE=y
 #
 # Development tools
 #
-BR2_PACKAGE_BINUTILS=y
-# BR2_PACKAGE_BINUTILS_TARGET is not set
+# BR2_PACKAGE_BINUTILS is not set
 # BR2_PACKAGE_BISON is not set
 # BR2_PACKAGE_BSDIFF is not set
 # BR2_PACKAGE_COREUTILS is not set
@@ -372,14 +371,7 @@ BR2_PACKAGE_GENEXT2FS=y
 # BR2_PACKAGE_GENROMFS is not set
 # BR2_PACKAGE_MAKEDEVS is not set
 # BR2_PACKAGE_MTD is not set
-BR2_PACKAGE_NFS_UTILS=y
-
-#
-# NFS utilities selection
-#
-# BR2_PACKAGE_NFS_UTILS_RPCDEBUG is not set
-# BR2_PACKAGE_NFS_UTILS_RPC_LOCKD is not set
-# BR2_PACKAGE_NFS_UTILS_RPC_RQUOTAD is not set
+# BR2_PACKAGE_NFS_UTILS is not set
 BR2_PACKAGE_NTFS_3G=y
 # BR2_PACKAGE_NTFS_3G_ENCRYPTED is not set
 BR2_PACKAGE_NTFS_3G_NTFSPROGS=y
@@ -854,7 +846,7 @@ BR2_PACKAGE_NCURSES=y
 # BR2_PACKAGE_NUTTCP is not set
 # BR2_PACKAGE_OLSR is not set
 # BR2_PACKAGE_OPENNTPD is not set
-# BR2_PACKAGE_OPENSSH is not set
+BR2_PACKAGE_OPENSSH=y
 # BR2_PACKAGE_OPENSWAN is not set
 # BR2_PACKAGE_OPENVPN is not set
 # BR2_PACKAGE_PORTMAP is not set
@@ -892,7 +884,7 @@ BR2_PACKAGE_NCURSES=y
 # BR2_PACKAGE_VPNC is not set
 # BR2_PACKAGE_VSFTPD is not set
 # BR2_PACKAGE_VTUN is not set
-# BR2_PACKAGE_WGET is not set
+BR2_PACKAGE_WGET=y
 # BR2_PACKAGE_WIRELESS_TOOLS is not set
 # BR2_PACKAGE_WPA_SUPPLICANT is not set
 # BR2_PACKAGE_XINETD is not set

@@ -9,7 +9,7 @@ $(CB_TOOLS_DIR)/.configured : $(CB_TOOLS_DIR)/.source
 	touch $@
 
 
-cb_tools-binary: $(CB_TOOLS_DIR)/.configured
+cb_tools-binary: $(CB_TOOLS_DIR)/.configured libsysfs
 	$(MAKE) CC="$(TARGET_CC)" -C $(CB_TOOLS_DIR)
 
 
